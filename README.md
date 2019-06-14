@@ -1,12 +1,13 @@
 # studieblok-1
-dit is de repository voor domijn C level 2: studieblok 1
+Dit is de repository voor domijn C level 2: studieblok 1
 
 ## wat kun je vinden?
-in deze repository kun je de opdrachten van javascript: studieblok 1 vinden.
+In deze repository kun je de opdrachten van javascript: studieblok 1 vinden.
 
 ## wanneer zien we dit studieblok als afgerond?
-wij zien di studieblok als afgerond zodra we de volgende dingen kunnen gebruiken:
-```javascript if (...) {
+Wij zien dit studieblok als afgerond zodra we de volgende dingen kunnen gebruiken:
+```javascript
+if (...) {
 	//doe iets...
 } else {
 	//doe iets anders...
