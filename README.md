@@ -37,11 +37,11 @@ function eenFunctie (int1, int2) {
 
 ## wat hebben we geleerd?
 in dit studieblok hebben we geleerd:
-*hoe je in javascript variablen annmakend
-*hoe je met integers moet rekenen
-*hoe je dingen op het scherm moet laten zien
-*hoe je comments moet maken
-*hoe je de de volgende functies mout gebruiken:
-**switch
-**if/else
+* Hoe je in javascript variablen annmakend
+* Hoe je met integers moet rekenen
+* Hoe je dingen op het scherm moet laten zien
+* Hoe je comments moet maken
+* Hoe je de de volgende functies mout gebruiken:
+	* switch
+	* if/else
 
