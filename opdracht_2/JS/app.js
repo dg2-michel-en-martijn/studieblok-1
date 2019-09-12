@@ -7,5 +7,5 @@ document.write(a + b + c);
 document.write("<br>")
 document.write(a + c - b);
 document.write("<br>")
-
+document.write(c % a);
 document.write("<br>")
