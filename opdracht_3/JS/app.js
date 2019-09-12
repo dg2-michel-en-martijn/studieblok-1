@@ -1,4 +1,6 @@
 /* schrijf code hier */
-function calculations(1, 2) { 
-
+function calculation(p1, p2) {
+  return p1 * p2;
 }
+document.getElementById("calculated").innerHTML = calculation(4, 3);
+ 
