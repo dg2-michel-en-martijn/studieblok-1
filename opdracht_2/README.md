@@ -1,5 +1,5 @@
 # Opdracht 2
-Dit is de map voor studieblok 1 > opdracht 1
+Dit is de map voor studieblok 1 > opdracht 2
 
 ## wat kun je vinden?
 In deze map vindt je de code voor Studieblok 1 > opdracht 2.
