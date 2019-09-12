@@ -12,3 +12,4 @@ document.write("<br>")
 document.write((a - c) * b);    // (3 - 5) * 4 = -8
 document.write("<br>");
 document.write((b + c) / a );   // (4 - 5) * 3 = 3
+ 
