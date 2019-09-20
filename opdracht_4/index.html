@@ -6,10 +6,25 @@
     <link rel="" href="./CSS/master.css">
   </head>
   <body>
+
+   <script src="./JS/app.js" charset="utf-8"></script>
+
     <div class="calculations">
-      <span id="if"></span>
-      <span id="switch"></span>
+      <form>
+        <input type="number" id="num1" placeholder="Getal 1">
+        <select class="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" id="num2" placeholder="Getal 2">
+        <button onclick="rekenen()" type="submit" name="submit">Bereken</button>
+      </form>
+
+      <div class="antwoord"></div>
+
     </div>
-    <script src="./JS/app.js" charset="utf-8"></script>
+
   </body>
 </html>
