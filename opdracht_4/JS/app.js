@@ -1,24 +1,37 @@
 /* schrijf code hier */
-var num1 = document.getElementsByName('num1');
-var num2 = document.getElementsByName('num2');
-var operator = document.getElementsByClassName('operator');
+function bereken() {
+  var selector = document.getElementById('operator');
+  var operator = selector[selector.selectedIndex].value;
+  var num1 = parseInt(document.getElementById('num1').value);
+  var num2 = parseInt(document.getElementById('num2').value);
+  var answer;
 
-function rekenen(num1, num2, actie) {
-      switch(actie){
-        case "+":
-         document.write(num1 + num2);
-        break;
 
-        case "-":
+  switch(operator) {
 
-        break;
+    case "+":
+      answer = num1 + num2;
+      document.getElementById('result').innerHTML = answer;
+    break;
+    case "-":
+      answer = num1 - num2;
+      document.getElementById('result').innerHTML = answer;
+    break;
+    case "*":
+      answer = num1 * num2;
+      document.getElementById('result').innerHTML = answer;
+    break;
+    case "/":
+    answer = num1 / num2;
+    document.getElementById('result').innerHTML = answer;
+    break;
 
-        case "*":
-
-        break;
-
-        case "/":
-
-        break;
+    default:
+    document.getElementById('result').innerHTML = "Operator hasn't been defined.";
+    break;
   }
+
+
 }
+
+document.getElementById('rekenen').addEventListener('click', bereken);;
